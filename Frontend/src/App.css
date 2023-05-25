@@ -1,0 +1,285 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif
+}
+
+body {
+    margin: 0 auto
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 7.5px;
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #E50914
+}
+
+.main-title {
+    padding-top: 10rem;
+        font-size: 6rem;
+        font-family: 'Bebas-Neue', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase
+}
+
+.main-para {
+    font-size: 0.9rem;
+    font-family: 'Bebas-Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ /*** circle button ***/
+ .circle-button {
+  border: none;
+  color: #222;
+  display: flex;
+  background-color: #ffffff00;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+ right: 10px;
+}
+
+
+.circle-button:focus {
+  outline: none;
+}
+
+.circle-button > svg {
+  font-size: 22px;
+}
+
+/***    Login Page     ***/
+
+h2 {
+    font-weight: 300
+}
+
+.padding-login {
+    padding-top: 40px;
+    padding-bottom: 40px;   
+}
+
+.custom-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.custom-link2 {
+    color: #333;
+    font-weight: bold;
+    font-size: 0.8rem; 
+}
+
+.center-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.top-screen {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.transparent-color {
+    color : #33333300;
+}
+
+.red-color {
+    color : #E50914;
+    font-weight: bold;
+}
+
+.grey-color {
+    color : #a7a6a6
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 7.5px;
+}
+
+#dialog_btn {
+    background-color: #222;
+    border: none;
+    color: #fff;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+
+.input-field{
+    background-color: #c2c2c2b4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color: #c2c2c200;
+    border: hidden;
+    outline: none;
+    text-indent: 2px;
+    padding: 5px;  
+  }
+  
+.input-field span{
+    cursor: pointer;
+  }
+
+.my-form {
+    width: 350px; 
+    margin: 0 auto; /* center the form horizontally */
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+   background-color: #ffffff7e;
+    border-radius: 10px;
+  }
+
+.form-error {
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    text-align: left;
+    padding-left: 5px;
+  }
+
+.textColor-error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.textColor-valid {
+    color: #198754 ;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    padding-right: 50px;
+  }
+
+.profile-div {
+    font-size: 2rem;
+    font-family: 'Bebas-Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase
+  }
